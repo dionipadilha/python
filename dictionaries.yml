@@ -18,7 +18,7 @@ Dictionaries:
     - remove the last item # table.popitem()
     - remove a item by key # table.pop("key")
     - remove all items # table.clear()
-    - remove items by values # don't have a direct method
+    - remove items by values # looping and deleting, popitem() with a condition
     # keys:
     - get the list of the keys # table.keys()
     - loop through keys # for key in table.keys(): print(key)
