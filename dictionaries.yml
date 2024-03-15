@@ -1,0 +1,31 @@
+Dictionaries:
+  Structure:
+    - items # "key":value pairs
+    - Keys # unique and immutable
+    - values # can be updated
+    - value data types # str, numbers, bolleans, lists, nested_dicts
+  Methods:
+    dicts:
+      - constructors # table = dict(key=value, ...), table = {"key":value, ...}
+      - length # len(table)
+      - copy of a dictionary # this_table = table.copy()
+      - completely delete a dictionary # del table
+    items:
+      - get the list of the items # table.items()
+      - loop through items # for k, v in table.items(): print(k, v)
+      - update a item value # table.update({"k": new_v}), table["k"] = new_v
+      - add a new item # table["new_key"] = this_value
+      - remove the last item # table.popitem()
+      - remove a item by key # table.pop("key")
+      - remove all items # table.clear()
+    keys:
+      - get the list of the keys # table.keys()
+      - loop through keys # for key in table.keys(): print(key)
+      - Check if a key is present # if "key" in table: print("Yes")
+      - get the value of a key # table.get("key"), table["key"]
+    values:
+      - get the list of the values # table.values()
+      - loop through values # for value in table.values(): print(value)
+  Nesting:
+    - create # family = {"child_1":{"name":"bob", "age":7}, ..., child_n:{...}}
+    - acess # print(family["child_nth"]["name"])
