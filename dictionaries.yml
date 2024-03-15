@@ -23,7 +23,7 @@ Dictionaries:
     - loop through keys # for key in table.keys(): print(key)
     - Check if a key is present # if "key" in table: print("Yes")
     - get the value of a key # table.get("key"), table["key"]
-    #values:
+    # values:
     - get the list of the values # table.values()
     - loop through values # for value in table.values(): print(value)
   Nesting:
