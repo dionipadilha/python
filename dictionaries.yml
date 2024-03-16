@@ -10,7 +10,7 @@ Dictionaries:
     
   Methods:
     # dicts:
-    - constructors # dic = dict(key=value, ...), dic = {"key":value, ...}
+    - constructor # dic = dict(key=value, ...), dic = {"key":value, ...}
     - length # len(dic)
     - copy of a dictionary # shallow_copy = original_dict.copy()
     - completely delete a dictionary # del dic
