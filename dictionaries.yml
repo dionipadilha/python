@@ -6,27 +6,27 @@ Dictionaries:
     - value data types # str, numbers, bolleans, lists, nested_dicts
   Methods:
     # dicts:
-    - constructors # table = dict(key=value, ...), table = {"key":value, ...}
-    - length # len(table)
-    - copy of a dictionary # this_table = table.copy()
-    - completely delete a dictionary # del table
+    - constructors # dic = dict(key=value, ...), dic = {"key":value, ...}
+    - length # len(dic)
+    - copy of a dictionary # shallow_copy = original_dict.copy()
+    - completely delete a dictionary # del dic
     # items:
-    - get the list of the items # table.items()
-    - loop through items # for k, v in table.items(): print(k, v)
-    - update a item value # table.update({"k": new_v}), table["k"] = new_v
-    - add a new item # table["new_key"] = this_value
-    - remove the last item # table.popitem()
-    - remove a item by key # table.pop("key")
-    - remove all items # table.clear()
-    - remove items by values # looping and deleting, popitem() with a condition
+    - get the list of the items # dic.items()
+    - loop through items # for k, v in dic.items(): print(k, v)
+    - update a item value # dic.update({"k": new_v}), dic["k"] = new_v
+    - add a new item # dic["new_key"] = this_value
+    - remove the last item # dic.popitem()
+    - remove a item by key # dic.pop("key")
+    - remove all items # dic.clear()
+    - remove items by values # #1 looping and deleting, #2 popitem condition
     # keys:
-    - get the list of the keys # table.keys()
-    - loop through keys # for key in table.keys(): print(key)
-    - Check if a key is present # if "key" in table: print("Yes")
-    - get the value of a key # table.get("key"), table["key"]
+    - get the list of the keys # dic.keys()
+    - loop through keys # for key in dic.keys(): print(key)
+    - Check if a key is present # if "key" in dic: print("Yes")
+    - get the value of a key # dic.get("key"), dic["key"]
     #values:
-    - get the list of the values # table.values()
-    - loop through values # for value in table.values(): print(value)
+    - get the list of the values # dic.values()
+    - loop through values # for value in dic.values(): print(value)
   Nesting:
     - nested dict # family = {"child_1":{"name":"bob", "age":7}, child_n:{...}}
     - access nested data # print(family["child_nth"]["name"])
