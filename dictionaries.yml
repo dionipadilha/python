@@ -1,11 +1,13 @@
 # Dictionaries in Python
 
 Dictionaries:
+
   Structure:
     - items # Unordered collection of key-value pairs
     - Keys # unique and immutable
     - values # can be updated and duplicated
     - value data types # str, numbers, bolleans, lists, nested_dicts
+    
   Methods:
     # dicts:
     - constructors # dic = dict(key=value, ...), dic = {"key":value, ...}
@@ -29,6 +31,7 @@ Dictionaries:
     #values:
     - get the list of the values # dic.values()
     - loop through values # for value in dic.values(): print(value)
+    
   Nesting:
     - nested dict # family = {"child_1":{"name":"bob", "age":7}, child_n:{...}}
     - access nested data # print(family["child_nth"]["name"])
