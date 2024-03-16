@@ -2,7 +2,7 @@ Dictionaries:
   Structure:
     - items # Unordered collection of key-value pairs
     - Keys # unique and immutable
-    - values # can be updated
+    - values # can be updated and duplicated
     - value data types # str, numbers, bolleans, lists, nested_dicts
   Methods:
     # dicts:
