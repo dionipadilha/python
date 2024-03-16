@@ -1,6 +1,6 @@
 Dictionaries:
   Structure:
-    - items # "key":value pairs
+    - items # Unordered collection of key-value pairs
     - Keys # unique and immutable
     - values # can be updated
     - value data types # str, numbers, bolleans, lists, nested_dicts
